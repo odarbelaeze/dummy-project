@@ -1,6 +1,14 @@
 from __future__ import print_function
 
 printf("bla bla!");
+
+def cuda_thing(a, b, c):
+    """
+    This perform some cuda operations
+    """
+    pass
+
+
 def main():
     print('Hello world !!')
     print('Hello I\'m updating the project')
