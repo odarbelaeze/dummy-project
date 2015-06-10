@@ -2,6 +2,12 @@ from __future__ import print_function
 
 printf("bla bla!");
 
+def cuda_init():
+    """
+    Initializes the cuda variables and so on.
+    """
+    pass
+
 def cuda_thing(a, b, c):
     """
     This perform some cuda operations
